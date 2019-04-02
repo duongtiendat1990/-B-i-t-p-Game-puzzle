@@ -1,71 +1,71 @@
-let imageTracker1 = 'monkey';
+let imageTracker1 = 'cat';
 function change1() {
     let img1 = document.getElementById('img1');
-    if (imageTracker1==='monkey') {
+    if (imageTracker1==='cat') {
         img1.src ='./images/monkey_part1x1.jpg';
-        imageTracker1 = 'panda';
-    } else if (imageTracker1==='panda') {
+        imageTracker1 = 'monkey';
+    } else if (imageTracker1==='monkey') {
         img1.src='./images/panda_swap_part1x1.jpg';
-        imageTracker1='cat';
+        imageTracker1='panda';
     } else {
         img1.src='./images/funny-cat1_part1x1.jpg';
-        imageTracker1='monkey';
+        imageTracker1='cat';
     }
 }
-let imageTracker2 = 'monkey';
+let imageTracker2 = 'cat';
 function change2() {
     let img2 = document.getElementById('img2');
-    if (imageTracker2==='monkey') {
+    if (imageTracker2==='cat') {
         img2.src ='./images/monkey_part2x1.jpg';
-        imageTracker2 = 'panda';
-    } else if (imageTracker2==='panda') {
+        imageTracker2 = 'monkey';
+    } else if (imageTracker2==='monkey') {
         img2.src='./images/panda_swap_part2x1.jpg';
-        imageTracker2='cat';
+        imageTracker2='panda';
     } else {
         img2.src='./images/funny-cat1_part2x1.jpg';
-        imageTracker2='monkey'
+        imageTracker2='cat'
     }
 }
-let imageTracker3 = 'monkey';
+let imageTracker3 = 'cat';
 function change3() {
     let img3 = document.getElementById('img3');
-    if (imageTracker3==='monkey') {
+    if (imageTracker3==='cat') {
         img3.src ='./images/monkey_part3x1.jpg';
-        imageTracker3 = 'panda';
-    } else if (imageTracker3==='panda') {
+        imageTracker3 = 'monkey';
+    } else if (imageTracker3==='monkey') {
         img3.src='./images/panda_swap_part3x1.jpg';
-        imageTracker3='cat';
+        imageTracker3='panda';
     } else {
         img3.src='./images/funny-cat1_part3x1.jpg';
-        imageTracker3='monkey';
+        imageTracker3='cat';
     }
 }
-let imageTracker4 = 'monkey';
+let imageTracker4 = 'cat';
 function change4() {
     let img4 = document.getElementById('img4');
-    if (imageTracker4==='monkey') {
+    if (imageTracker4==='cat') {
         img4.src ='./images/monkey_part4x1.jpg';
-        imageTracker4 = 'panda';
-    } else if (imageTracker4==='panda') {
+        imageTracker4 = 'monkey';
+    } else if (imageTracker4==='monkey') {
         img4.src='./images/panda_swap_part4x1.jpg';
-        imageTracker4='cat';
+        imageTracker4='panda';
     } else {
         img4.src='./images/funny-cat1_part4x1.jpg';
-        imageTracker4='monkey';
+        imageTracker4='cat';
     }
 }
-let imageTracker5 = 'monkey';
+let imageTracker5 = 'cat';
 function change5() {
     let img5 = document.getElementById('img5');
-    if (imageTracker5==='monkey') {
+    if (imageTracker5==='cat') {
         img5.src ='./images/monkey_part5x1.jpg';
-        imageTracker5 = 'panda';
-    } else if (imageTracker5==='panda') {
+        imageTracker5 = 'monkey';
+    } else if (imageTracker5==='monkey') {
         img5.src='./images/panda_swap_part5x1.jpg';
-        imageTracker5='cat';
+        imageTracker5='panda';
     } else {
         img5.src='./images/funny-cat1_part5x1.jpg';
-        imageTracker5='monkey';
+        imageTracker5='cat';
     }
 }
 function check() {
